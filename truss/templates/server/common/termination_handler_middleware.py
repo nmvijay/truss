@@ -18,7 +18,7 @@ class TerminationHandlerMiddleware:
     requests to finish, before informing on the on_term callback.
 
     Stop means that the process to stop the server has started. As soon as
-    outstading requests go to zero after this, on_term will be called.
+    outstanding requests go to zero after this, on_term will be called.
 
     Term means that this is the right time to terminate the server process, no
     outstanding requests at this point.
